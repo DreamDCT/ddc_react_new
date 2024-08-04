@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: "Cyberpunk";
+    src: local("Cyberpunk"),
+    url("./Components/Fonts/Cyberpunk.ttf") format("truetype");
+}
+@font-face {
+    font-family: "ObitaemOstrov";
+    src: local("ObitaemOstrov"),
+    url("./Components/Fonts/ObitaemOstrov.ttf") format("truetype");
+}
+@font-face {
+    font-family: "QUINQUEFIVE";
+    src: local("QUINQUEFIVE"),
+    url("./Components/Fonts/QUINQUEFIVE.OTF") format("truetype");
+}
+@font-face {
+    font-family: ZtChablisRegular;
+    src: local("ZtChablisRegular"),
+    url("./Components/Fonts/ZtChablisRegular.ttf") format("truetype");
 }
