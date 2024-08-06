@@ -13,9 +13,9 @@ export default  function FirstScreen() {
     return (
         <div className = {"ScreenPage"}>
             <div className= {"Screen"}>
-                <div className="DreamDealersLogo absolute w-[219px] h-[73px] flex-shrink">
-                    <div className="logo relative top-[120px] left-[800px]">
-                        <img src={DDLogo} alt=""/>
+                <div className="DreamDealersLogo absolute w-screen h-screen">
+                    <div className="logo relative top-[13%] left-[47%]">
+                        <img className={"w-[219px] h-[73px]"} src={DDLogo} alt=""/>
                     </div>
                 </div>
                 <div className="bg w-screen h-screen">
